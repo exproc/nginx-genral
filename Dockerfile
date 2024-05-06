@@ -3,3 +3,4 @@ COPY custom-nginx/ /etc/nginx/
 RUN mkdir /exter-dir
 RUN mkdir /iso
 RUN ls -la /etc/nginx/sites-enabled
+RUN rm  /etc/nginx/conf.d/default.conf
